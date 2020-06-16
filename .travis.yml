@@ -22,4 +22,4 @@ deploy:
   provider: heroku --pro
   api-key: 
     secure: $HEROKOKEY
-  app: devopsrafaelteste
+  app: {devopsrafaelteste}
