@@ -20,6 +20,7 @@ script:
 deploy:
   skip_cleanup: true
   provider: heroku
+    edge: true
   api-key: 
     secure: $HEROKOKEY
   app: {devopsrafaelteste}
