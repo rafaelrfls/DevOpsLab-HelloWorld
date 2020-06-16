@@ -21,8 +21,8 @@ deploy:
   skip_cleanup: true
   provider: heroku
     on: {devopsrafaelteste}
-  on:
-    all_branches: true
   api-key: 
     secure: $HEROKOKEY
+  on:
+    all_branches: true
 #  app: {devopsrafaelteste}
